@@ -31,3 +31,24 @@ To get started with the Task Management Application, follow these steps:
 
 ```bash
 git clone https://github.com/your-username/task-management.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd task-management
+```
+
+3. Install the required dependencies
+```bash
+pip install -r requirements.txt
+```
+
+4. Intialize the SQLite database:
+```bash
+python initialize_database.py
+```
+
+5. Run the application:
+```bash
+python main.py
+```
